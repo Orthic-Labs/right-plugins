@@ -1,0 +1,5 @@
+{
+  "name": "postright-engine",
+  "version": "0.1.0",
+  "description": "Plan, queue and inspect social posts with the postright-engine CLI; use when the user asks to check the content calendar, review or approve a scheduled post, run the text gate on a script, or inspect publish jobs and analytics."
+}

@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "copiedAt": "2026-10-11",
+  "method": "git archive HEAD <path> from the source repository's committed state",
+  "sources": [
+    { "app": "cutright",   "pluginName": "cutright-engine", "pluginVersion": "0.1.0", "sourceRepository": "cutright",   "sourcePath": "plugins/cutright",   "commit": "bdea735dea934df2e57a116ae10161666e18cde9", "copiedAt": "2026-10-11" },
+    { "app": "genright",   "pluginName": "genright",        "pluginVersion": "0.1.0", "sourceRepository": "genright",   "sourcePath": "plugins/genright",   "commit": "c24de70c10a15faab5b62ba0bb723b1666c9e7cc", "copiedAt": "2026-10-11" },
+    { "app": "scraperight","pluginName": "scraperight-engine","pluginVersion": "0.1.0","sourceRepository": "scraperight","sourcePath": "plugins/scraperight","commit": "7e8fbf98fa3cd05bf51225fd4f5ad078f00467a6", "copiedAt": "2026-10-11" },
+    { "app": "postright",  "pluginName": "postright-engine","pluginVersion": "0.1.0", "sourceRepository": "postright",  "sourcePath": "plugins/postright",  "commit": "3489d2c33ee316a156aa3a92ff84d082d0b51c9d", "copiedAt": "2026-10-11", "localEdits": ["skills/postright-engine/SKILL.md: removed the pointer to docs/CLI-POSTRIGHT.md in the private PostRight repository"] },
+    { "app": "pulse",      "pluginName": "pulse",           "pluginVersion": "0.1.0", "sourceRepository": "pulse",      "sourcePath": "plugins/claude/pulse", "commit": "bd9ede33b058adb520dec657f6fd959ba16ac1c7", "copiedAt": "2026-10-11" },
+    { "app": "pulse",      "pluginName": "pulse",           "pluginVersion": "0.1.0", "sourceRepository": "pulse",      "sourcePath": "plugins/codex/pulse",  "commit": "bd9ede33b058adb520dec657f6fd959ba16ac1c7", "copiedAt": "2026-10-11" }
+  ],
+  "listedRemotely": [
+    { "app": "legion", "pluginName": "legion", "pluginVersion": "0.3.23", "url": "https://github.com/Orthic-Labs/legion.git", "ref": "main", "note": "not copied; remote source form unverified" }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "cutright-engine",
+  "version": "0.1.0",
+  "description": "Edit video projects from the command line with the cutright-engine CLI; use when the user asks to cut or trim a video, render or export an edit, apply an edit plan, or deliver a video from a content brief."
+}

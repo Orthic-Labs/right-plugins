@@ -1,0 +1,6 @@
+{
+  "name": "pulse",
+  "description": "Pulse Chat for Claude Code: the skill for messaging chats on other computers, and hooks that hand waiting messages to this chat.",
+  "version": "0.1.0",
+  "author": { "name": "Orthic Labs" }
+}

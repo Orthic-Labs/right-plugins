@@ -1,0 +1,55 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-marketplace.json",
+  "name": "right-suite",
+  "owner": {
+    "name": "Orthic Labs"
+  },
+  "plugins": [
+    {
+      "name": "cutright-engine",
+      "source": "./plugins/cutright",
+      "description": "Edit video projects from the command line with the CutRight engine: cut, render and deliver video (needs the CutRight app).",
+      "version": "0.1.0",
+      "category": "productivity"
+    },
+    {
+      "name": "genright",
+      "source": "./plugins/genright",
+      "description": "Generate images, video and voice and check jobs and spend with the GenRight engine (needs the GenRight app).",
+      "version": "0.1.0",
+      "category": "productivity"
+    },
+    {
+      "name": "scraperight-engine",
+      "source": "./plugins/scraperight",
+      "description": "Transcribe video and audio and extract text from links, PDFs and images with the ScrapeRight engine (needs the ScrapeRight app).",
+      "version": "0.1.0",
+      "category": "productivity"
+    },
+    {
+      "name": "postright-engine",
+      "source": "./plugins/postright",
+      "description": "Plan, queue and inspect social posts with the PostRight engine (needs the PostRight app).",
+      "version": "0.1.0",
+      "category": "productivity"
+    },
+    {
+      "name": "pulse",
+      "source": "./plugins/claude/pulse",
+      "description": "Pulse Chat: message AI chats on other computers, and hand waiting messages to this chat (skill plus hooks; needs Pulse).",
+      "version": "0.1.0",
+      "category": "productivity"
+    },
+    {
+      "name": "legion",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Orthic-Labs/legion.git",
+        "ref": "main"
+      },
+      "description": "Legion: capability routing and authority roles (Sage, Alchemist, Oracle) with Arcane and Guard hooks; needs the legion binary installed.",
+      "version": "0.3.23",
+      "category": "development"
+    }
+  ]
+}

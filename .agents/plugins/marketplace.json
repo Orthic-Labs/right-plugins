@@ -1,0 +1,65 @@
+{
+  "name": "right-suite",
+  "plugins": [
+    {
+      "name": "cutright-engine",
+      "source": {
+        "source": "local",
+        "path": "./plugins/cutright"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "productivity"
+    },
+    {
+      "name": "genright",
+      "source": {
+        "source": "local",
+        "path": "./plugins/genright"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "productivity"
+    },
+    {
+      "name": "scraperight-engine",
+      "source": {
+        "source": "local",
+        "path": "./plugins/scraperight"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "productivity"
+    },
+    {
+      "name": "postright-engine",
+      "source": {
+        "source": "local",
+        "path": "./plugins/postright"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "productivity"
+    },
+    {
+      "name": "pulse",
+      "source": {
+        "source": "local",
+        "path": "./plugins/codex/pulse"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "productivity"
+    }
+  ]
+}

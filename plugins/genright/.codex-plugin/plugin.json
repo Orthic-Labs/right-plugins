@@ -1,0 +1,6 @@
+{
+  "name": "genright",
+  "version": "0.1.0",
+  "description": "Drive the GenRight media engine from the shell: generate images, video and voice, track jobs and check spend.",
+  "skills": "./skills/"
+}

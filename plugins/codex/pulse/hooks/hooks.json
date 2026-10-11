@@ -1,0 +1,13 @@
+{
+  "hooks": {
+    "UserPromptSubmit": [
+      { "hooks": [ { "type": "command", "command": "sh \"${PLUGIN_ROOT}/hooks/run-pulse.sh\" codex-hook", "commandWindows": "powershell -NoProfile -NonInteractive -ExecutionPolicy Bypass -File \"${PLUGIN_ROOT}\\hooks\\run-pulse.ps1\" codex-hook", "timeout": 10 } ] }
+    ],
+    "PostToolUse": [
+      { "hooks": [ { "type": "command", "command": "sh \"${PLUGIN_ROOT}/hooks/run-pulse.sh\" codex-hook", "commandWindows": "powershell -NoProfile -NonInteractive -ExecutionPolicy Bypass -File \"${PLUGIN_ROOT}\\hooks\\run-pulse.ps1\" codex-hook", "timeout": 10 } ] }
+    ],
+    "Stop": [
+      { "hooks": [ { "type": "command", "command": "sh \"${PLUGIN_ROOT}/hooks/run-pulse.sh\" codex-hook", "commandWindows": "powershell -NoProfile -NonInteractive -ExecutionPolicy Bypass -File \"${PLUGIN_ROOT}\\hooks\\run-pulse.ps1\" codex-hook", "timeout": 10 } ] }
+    ]
+  }
+}

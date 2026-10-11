@@ -1,0 +1,6 @@
+{
+  "name": "pulse",
+  "version": "0.1.0",
+  "description": "Pulse Chat for Codex: the skill for messaging chats on other computers, and hooks that hand waiting messages to this chat.",
+  "skills": "./skills/"
+}

@@ -1,0 +1,14 @@
+{
+  "description": "Pulse Chat: hand messages waiting for this chat to Claude.",
+  "hooks": {
+    "UserPromptSubmit": [
+      { "hooks": [ { "type": "command", "shell": "bash", "command": "sh \"${CLAUDE_PLUGIN_ROOT}/hooks/run-pulse.sh\" claude-hook", "timeout": 10 } ] }
+    ],
+    "PostToolUse": [
+      { "hooks": [ { "type": "command", "shell": "bash", "command": "sh \"${CLAUDE_PLUGIN_ROOT}/hooks/run-pulse.sh\" claude-hook", "timeout": 10 } ] }
+    ],
+    "Stop": [
+      { "hooks": [ { "type": "command", "shell": "bash", "command": "sh \"${CLAUDE_PLUGIN_ROOT}/hooks/run-pulse.sh\" claude-hook", "timeout": 10 } ] }
+    ]
+  }
+}

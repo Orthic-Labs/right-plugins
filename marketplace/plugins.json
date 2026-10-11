@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "name": "right-suite",
+  "owner": { "name": "Orthic Labs" },
+  "plugins": [
+    {
+      "name": "cutright-engine",
+      "description": "Edit video projects from the command line with the CutRight engine: cut, render and deliver video (needs the CutRight app).",
+      "category": "productivity",
+      "version": "0.1.0",
+      "url": "https://github.com/Orthic-Labs/right-plugins.git",
+      "ref": "main",
+      "hosts": { "claude": { "path": "plugins/cutright" }, "codex": { "path": "plugins/cutright", "local": "./plugins/cutright" } }
+    },
+    {
+      "name": "genright",
+      "description": "Generate images, video and voice and check jobs and spend with the GenRight engine (needs the GenRight app).",
+      "category": "productivity",
+      "version": "0.1.0",
+      "url": "https://github.com/Orthic-Labs/right-plugins.git",
+      "ref": "main",
+      "hosts": { "claude": { "path": "plugins/genright" }, "codex": { "path": "plugins/genright", "local": "./plugins/genright" } }
+    },
+    {
+      "name": "scraperight-engine",
+      "description": "Transcribe video and audio and extract text from links, PDFs and images with the ScrapeRight engine (needs the ScrapeRight app).",
+      "category": "productivity",
+      "version": "0.1.0",
+      "url": "https://github.com/Orthic-Labs/right-plugins.git",
+      "ref": "main",
+      "hosts": { "claude": { "path": "plugins/scraperight" }, "codex": { "path": "plugins/scraperight", "local": "./plugins/scraperight" } }
+    },
+    {
+      "name": "postright-engine",
+      "description": "Plan, queue and inspect social posts with the PostRight engine (needs the PostRight app).",
+      "category": "productivity",
+      "version": "0.1.0",
+      "url": "https://github.com/Orthic-Labs/right-plugins.git",
+      "ref": "main",
+      "hosts": { "claude": { "path": "plugins/postright" }, "codex": { "path": "plugins/postright", "local": "./plugins/postright" } }
+    },
+    {
+      "name": "pulse",
+      "description": "Pulse Chat: message AI chats on other computers, and hand waiting messages to this chat (skill plus hooks; needs Pulse).",
+      "category": "productivity",
+      "version": "0.1.0",
+      "url": "https://github.com/Orthic-Labs/right-plugins.git",
+      "ref": "main",
+      "hosts": { "claude": { "path": "plugins/claude/pulse" }, "codex": { "path": "plugins/codex/pulse", "local": "./plugins/codex/pulse" } }
+    },
+    {
+      "name": "legion",
+      "description": "Legion: capability routing and authority roles (Sage, Alchemist, Oracle) with Arcane and Guard hooks; needs the legion binary installed.",
+      "category": "development",
+      "version": "0.3.23",
+      "url": "https://github.com/Orthic-Labs/legion.git",
+      "ref": "main",
+      "hosts": { "claude": { "path": "." } },
+      "knownIssues": "Legion skills predate the description gate and skills/manifests is not a skill; Legion's repository owner fixes the descriptions, then removes this waiver."
+    }
+  ]
+}

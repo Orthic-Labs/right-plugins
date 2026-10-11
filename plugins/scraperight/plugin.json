@@ -1,0 +1,6 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "scraperight-engine",
+  "version": "0.1.0",
+  "description": "Extracts transcripts and text from videos, audio, PDFs, images and web pages with the scraperight-engine command line; use when the user asks to transcribe a video, transcribe an audio file, extract text from a URL, or OCR a PDF or image."
+}
