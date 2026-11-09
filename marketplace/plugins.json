@@ -33,9 +33,9 @@
     },
     {
       "name": "pulse",
-      "description": "Pulse Chat: message AI chats on other computers, and hand waiting messages to this chat (skill plus hooks; needs Pulse).",
+      "description": "Message your AI chats on paired computers and use Pulse's tools from Claude Code and Codex (needs the Pulse app).",
       "category": "productivity",
-      "version": "0.1.0",
+      "version": "0.2.2",
       "hosts": { "claude": { "local": "./plugins/claude/pulse" }, "codex": { "local": "./plugins/codex/pulse" } }
     },
     {
